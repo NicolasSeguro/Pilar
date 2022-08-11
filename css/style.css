@@ -186,12 +186,30 @@ hr {
 
 .continue {
     padding: 0 6px;
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    margin: 0 auto;
+}
+
+.continue-ir, .continue-ir-uno {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.continue-ir-uno {
+    width: 25%;
 }
 
 
 @media screen and (max-width: 600px) {
     body {
         overflow-x: hidden;
+    }
+
+    .continue-ir-uno {
+        width: 70%;
     }
 
     .portada-pilar {
