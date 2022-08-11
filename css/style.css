@@ -273,6 +273,14 @@ hr {
         font-size: 18px;
         color: black;
     }
+
+    .w-inputs {
+        width: 75% !important;
+    }
+}
+
+.w-inputs {
+    width: 25%;
 }
 
 .bg-frases {
