@@ -193,6 +193,17 @@ hr {
     body {
         overflow-x: hidden;
     }
+
+    .portada-pilar {
+        background-image: url('../images/banner_mobile-13-13.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 75vh;
+        padding: 30% 0;
+    }
+
+
     .back-to-top {
         position: fixed;
         right: 45px;
@@ -224,13 +235,6 @@ hr {
         visibility: hidden;
     }
 
-    .portada-pilar {
-        background-image: url('../images/banner.svg');
-        background-size: contain;
-        background-repeat: no-repeat;
-        width: 100%;
-        height: auto;
-    }
 
     .dot-red {
         height: 100px;
