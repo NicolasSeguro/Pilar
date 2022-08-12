@@ -47,6 +47,10 @@ body {
     font-size: 20px;
 }
 
+.d-none-icon-mobile {
+    display: none;
+}
+
 hr {
     margin: 20px auto;
     width: 75%;
@@ -122,7 +126,7 @@ hr {
 .button-ins {
     background-color: #FF000F;
     color: white;
-    font-family: blinker-button;
+    font-family: blinker-semiBold;
     font-size: 30px;
 }
 
@@ -225,6 +229,10 @@ hr {
 @media screen and (max-width: 600px) {
     body {
         overflow-x: hidden;
+    }
+    .d-none-icon-mobile {
+        display: flex;
+        margin: 0 auto;
     }
 
     .continue-ir-uno {
