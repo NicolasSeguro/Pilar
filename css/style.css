@@ -39,6 +39,14 @@ body {
     width: 40%;
 }
 
+.list-group-item {
+    background-color: transparent !important;
+    color: white;
+    font-family: blinker-fina;
+    border: none;
+    font-size: 20px;
+}
+
 hr {
     margin: 20px auto;
     width: 75%;
@@ -62,9 +70,15 @@ hr {
 }
 
 .subtitle-inscripcion {
-    font-family: blinker-regular;
+    font-family: blinker-fina;
     font-size: 36px;
     color: #484848;
+}
+
+.subtitle-inscripcion-dos {
+    text-align: center;
+    font-size: 28px;
+    font-family: blinker-fina;
 }
 
 .labels {
@@ -196,10 +210,15 @@ hr {
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    font-size: 20px;
 }
 
 .continue-ir-uno {
     width: 25%;
+}
+
+.d-none-title-input-mobile {
+    display: none !important;
 }
 
 
@@ -210,6 +229,14 @@ hr {
 
     .continue-ir-uno {
         width: 70%;
+    }
+
+    .d-none-title-input-mobile {
+        display: flex !important;
+    }
+
+    .d-none-title-input {
+        display: none !important;
     }
 
     .portada-pilar {
@@ -233,7 +260,7 @@ hr {
     .subtitle-inscripcion, .labels , .continue {
         font-size: 18px;
         text-align: center;
-        font-family: blinker-regular;
+        font-family: blinker-fina;
     }
 
     .continue {
