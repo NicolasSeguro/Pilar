@@ -47,6 +47,10 @@ body {
     font-size: 20px;
 }
 
+.list-cursos {
+    text-align: center;
+}
+
 .d-none-icon-mobile {
     display: none;
 }
@@ -225,6 +229,10 @@ hr {
     display: none !important;
 }
 
+.text-margin {
+    margin: 0 200px;
+}
+
 
 @media screen and (max-width: 600px) {
     body {
@@ -339,10 +347,15 @@ hr {
 
 .w-inputs {
     width: 36%;
+    margin: 0 10px;
 }
 
 .w-inputs-dos {
-    width: 25%;
+    width: 30%;
+}
+
+.mr-inputs-left {
+    margin-right: 34px;
 }
 
 .bg-frases {
